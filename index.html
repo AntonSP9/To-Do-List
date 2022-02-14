@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div>
+    <h1>To-Do List</h1>
+    <input id="input-task">
+    <button id="add-task-button">ADD TASK</button>
+    <ul id="task-list">
+        <li>
+            <input type="checkbox" onclick="check(this)"><span class="task">Do something</span><button class="delete-btn" onclick="del(this)"></button>
+        </li>
+        <li>
+            <input type="checkbox" onclick="check(this)" ><span class="task">And something else</span><button class="delete-btn" onclick="del(this)"></button>
+        </li>
+        <li>
+            <input type="checkbox" onclick="check(this)"><span class="task">I don't know... JUST DO!</span><button class="delete-btn" onclick="del(this)"></button>
+        </li>
+    </ul>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

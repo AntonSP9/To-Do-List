@@ -1,0 +1,26 @@
+.delete-btn {
+    padding: 1vmin;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: .5rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+div {
+    width: 50vmax;
+    height: 50vmin;
+    margin: 25vmin 25vmax;
+}
+
+ul {
+    list-style: none;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
